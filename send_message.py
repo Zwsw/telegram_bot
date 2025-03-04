@@ -7,7 +7,7 @@ api_id = 24586867
 api_hash = "c74a1a9426f345c05ef9ac223f4e15ed"
 
 # Явно указываем абсолютный путь к файлу сессии (без расширения)
-client = TelegramClient("/root/telegram_bot/my_session2", api_id, api_hash)
+client = TelegramClient("/root/telegram_bot/my_session", api_id, api_hash)
 
 async def check_session():
     if not await client.is_user_authorized():

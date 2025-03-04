@@ -6,7 +6,7 @@ from telethon.tl.functions.channels import JoinChannelRequest  # 📌 Добав
 api_id = 24586867   
 api_hash = "c74a1a9426f345c05ef9ac223f4e15ed"  
 
-client = TelegramClient("my_session", api_id, api_hash)
+client = TelegramClient("/root/telegram_bot/my_session", api_id, api_hash)
 
 # 📌 Функция для проверки сессии перед запуском
 async def check_session():
